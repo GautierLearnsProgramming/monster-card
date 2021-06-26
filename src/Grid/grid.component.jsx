@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import styles from './grid.module.scss';
-import { Row, Col, Image } from 'antd';
+import { Row, Col } from 'antd';
 import MonsterCard from "../MonsterCard/monster-card.component";
 import SearchBar from "./SearchBar/search.component";
 
