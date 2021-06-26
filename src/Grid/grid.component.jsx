@@ -4,7 +4,7 @@ import MonsterCard from "../MonsterCard/monster-card.component";
 import SearchBar from "./SearchBar/search.component";
 
 function Grid() {
-    
+
     let arr = [
         {name: 'Janneth'},
         {name: 'Louis'},

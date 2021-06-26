@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './App.module.scss';
 import { Layout, Row, Col } from 'antd';
 import Grid from '../Grid/grid.component'
@@ -6,6 +6,10 @@ import Grid from '../Grid/grid.component'
 function App() {
 
   const { Content } = Layout;
+    useEffect(() => {
+        document.title = "Monster Rolodex"
+    }, []);
+
 
   return (
       <Layout>
