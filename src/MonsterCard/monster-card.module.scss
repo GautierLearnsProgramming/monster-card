@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.card{
+  padding: 24px;
+  width: 275px;
+  height: 370px;
+  background: #89D3D3;
+  transition: all .2s ease-in-out;
+}
+
+.card:hover { transform: scale(1.05); }
+
+.name{
+  padding-top: 24px;
+  padding-bottom: 16px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.email{
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+}
